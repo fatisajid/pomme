@@ -57,3 +57,15 @@ ul li a{
     text-decoration: none ;/*décoration du texte*/
     border-right: 2px solid #dea ;/*bordure*/
 }
+
+ul li a:hover{/*on décale l'image de fond au passage de la souris pour laisser aparaître l'état survolé de l'image*/
+    background: url(../img/bg_menu.gif) repeat-x 0 0 ;
+}
+
+footer{
+	margin: 0;
+	padding-right: 10px;
+	line-height: 30px;
+	text-align: right;
+	color: #8a0;
+}
